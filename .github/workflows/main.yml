@@ -17,4 +17,4 @@ jobs:
         server: sundarasaludybelleza.com.mx
         username: ${{ secrets.ftp_usuario }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /home/sunda412/belleza.sundarasaludybelleza.com.mx/
+        server-dir: /belleza.sundarasaludybelleza.com.mx/
