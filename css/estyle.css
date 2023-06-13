@@ -1,0 +1,103 @@
+.container {
+  max-width: 800px;
+}
+
+#comparison {
+	width: 100%;
+	padding-bottom: 100%;
+	overflow: hidden; 
+  position: relative;
+}
+
+figure { 
+  position: absolute;
+	background-image: url('../images/cejas antes MICROBLADING.webp');
+	background-size: cover;
+	font-size: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+}
+#divisor{
+	background-image: url("../images/cejas despues MICROBLADING.webp");
+	background-size:cover;position:absolute;width:50%;box-shadow:0 5px 10px -2px rgba(0,0,0,0.3);bottom:0;height:100%}
+#divisor::before,#divisor::after{content:'';position:absolute;right:-6px;width:8px;height:calc(50% - 25px);background:#fff;z-index:3}
+#divisor::before{top:0}
+#divisor::after{bottom:0}
+
+#handle{
+position:absolute;
+height:50px;
+width:50px;
+top:50%;
+left:50%;
+-webkit-transform:translateY(-50%) translateX(-50%);
+transform:translateY(-50%) translateX(-50%);
+z-index:1;border-radius:100%;
+background-color:#6C7A89
+}
+#handle::before,
+#handle::after{
+	content:'';
+	width:0;
+	height:0;
+	border:6px inset transparent;
+	position:absolute;
+	top:53%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%)
+}
+#handle::before{
+	border-right:6px solid #fff;
+	left:50%;
+	margin-left:-16px}
+#handle::after{
+	border-left:6px solid #fff;
+	right:50%;
+	margin-right:-16px}
+
+input[type=range]{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	position: absolute;
+	top: 50%; left: -25px;
+	transform: translateY(-50%);
+	background-color: transparent;
+	width: calc(100% + 50px); 
+  z-index: 2;
+  
+  &:focus,
+  &:active {
+    border: none;
+    outline: none;
+  }
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid white;
+  box-shadow: 0 0 8px 1px rgba(0,0,0,.3);
+}
+input[type=range]::-moz-range-track {
+	-moz-appearance:none;
+	height:15px;
+	width: 100%;
+	background-color: transparent; 
+	position: relative;
+	outline: none;    
+}
+
+.btn-outline-white {
+	border-color: #fff;
+	color: #fff;
+	border-width: 2px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: .1em; }
+	.btn-outline-white:hover {
+	  background: #fff;
+	  color: #000; }
