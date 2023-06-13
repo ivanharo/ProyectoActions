@@ -17,4 +17,4 @@ jobs:
         server: ftp.samkirkland.com
         username: ${{ secrets.ftp_usuario }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/sundarasaludybelleza.com.mx/
+        server-dir: /home/sunda412/sundarasaludybelleza.com.mx/
