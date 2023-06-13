@@ -8,6 +8,9 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-    
+        
+      - name: Muestra echo
+        run: echo este es la prueba en leerarchivo
+
       - name: Ejecuta Python
-        run:  python .github/workflows/ejecuta.py    
+        run: python .github/workflows/ejecuta.py    
