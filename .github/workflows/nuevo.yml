@@ -1,17 +1,13 @@
-name: Hello World
-
-on:
-  push:
-    branches:
-      - main
-
+name: leer archivo xml
+on: 
+  workflow_dispatch:
 
 jobs:
-  Hello_World:
-    runs-on: ubuntu-20.04
+  build:
+    runs-on: ubuntu-latest
+    
     steps:
-      - name: Hola Mundo
-        run: echo "Hola Mundo"
-      - name: Muestra la fecha
-        run: date
-      - run: ls -l
+      - uses: actions/checkout@v3
+        
+      - name: Setup Python
+        run: echo "hola mundo"    
