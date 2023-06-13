@@ -1,9 +1,6 @@
 on: 
-  
   push:
-
     branches:
-
       -master
 name:  deployar en mi website con push
 jobs:
