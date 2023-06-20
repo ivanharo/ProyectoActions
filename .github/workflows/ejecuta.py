@@ -3,6 +3,6 @@ import xml.etree.ElementTree as ET
     aux = []
     partes = renglon.split()
     if partes[0] == '<Componente':
-    print(renglon.split()[1])
+      print(renglon.split()[1])
     else 
-    print('no se encontro')
+      print('no se encontro')
