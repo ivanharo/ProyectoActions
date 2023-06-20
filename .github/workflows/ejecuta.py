@@ -4,7 +4,9 @@ try:
     xml_file = open('archi.xml')         
     if xml_file.readable():
         xml_data = ET.fromstring(xml_file.read())
-        print(xml_data)
+        componente = xml_data.findall('componente')
+        for comp in componente:
+            print(f"Dato: {plant.find('componente').text}")
     else:
         print(False)
 except Exception as err:
