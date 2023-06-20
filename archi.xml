@@ -2,7 +2,7 @@
 
 
 <PLANT>
-<componente> nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si"</componente>
+<componente> nombre= carlos</componente>
 </PLANT>
 
 <urlset
@@ -23,6 +23,11 @@
 
 <url>
 
+
+<PLANT>
+<componente> nombre= carlos</componente>
+</PLANT>
+      
   <loc>https://belleza.sundarasaludybelleza.com.mx/</loc>
 
   <lastmod>2023-01-20T20:29:30+00:00</lastmod>
