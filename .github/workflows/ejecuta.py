@@ -1,4 +1,4 @@
 import xml.etree.ElementTree as ET
-xml_file = open('archi.xml','rt') 
-print(xml_file.read())
-xml_file.close()
+with open('archi.xml') as archivo 
+for linea in archivo:
+  print(linea)
