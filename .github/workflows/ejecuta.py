@@ -3,7 +3,8 @@ import xml.etree.ElementTree as ET
 try:
     xml_file = open('archi.xml')         
     if xml_file.readable():
-        print(True)
+        xml_data = ET.fromstring(xml_file.read())
+        print(xml_data)
     else:
         print(False)
 except Exception as err:
