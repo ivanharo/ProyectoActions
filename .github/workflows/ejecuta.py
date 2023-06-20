@@ -5,6 +5,7 @@ try:
     if xml_file.readable():
         xml_data = ET.fromstring(xml_file.read())
         lst_plants = xml_data.findall('PLANT')
+        print(lst:plants)
         for plant in lst_plants:
             print(f"Dato: {plant.find('componente').text}")
     else:
