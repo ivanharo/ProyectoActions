@@ -3,5 +3,5 @@ for renglon in open('archi.xml'):
   partes = renglon.split()
   if partes[0] == '<Componente':
     print(renglon.split()[1])
-  else 
+  else: 
     print('no se encontro')
