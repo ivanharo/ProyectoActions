@@ -1,16 +1,10 @@
-<?xml version="1.0"?>
-<!DOCTYPE MENSAJE SYSTEM "mensaje.dtd">
-<mensaje>
-<remite>
-<nombre>Alfredo Reino</nombre>
-<email>alf@ibium.com</email>
-</remite>
-<destinatario>
-<nombre>Bill Clinton</nombre>
-<email>president@whitehouse.gov</email>
-</destinatario>
-<asunto>Hola Bill</asunto>
-<texto>
-<parrafo>¿Hola qué tal? Hace <enfasis>mucho</enfasis> que no escribes. A ver si llamas y quedamos para tomar algo.</parrafo>
-</texto>
-</mensaje>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Compilar con libreriasComunesPld_1.8 y actualizar esta carpeta desde el harvest -->
+<aplicacion nombre="SeguridadPLD" 
+			version="32
+			situacion="PRODUCCION" 
+			FechaLiberacion="24/06/2022" 
+			Autor="MIRGOMEZ">				 
+		<Componente nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si"> <ruta-servidor>tn03vm01adv-def.exl.monex.com.mx:38064</ruta-servidor>     
+		</Componente>    	 
+</aplicacion>
