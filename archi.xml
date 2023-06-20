@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+<PLANT>
+<componente> nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si"</componente>
+</PLANT>
+
 <urlset
 
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -26,9 +31,7 @@
 
 </url>
 
-<PLANT>
-<componente nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si"></componente>
-</PLANT>
+
 
 
 
