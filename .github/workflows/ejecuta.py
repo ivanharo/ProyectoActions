@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+
   for renglon in open('archi.xml'):
     aux = []
     partes = renglon.split()
