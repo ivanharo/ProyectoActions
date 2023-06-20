@@ -1,7 +1,5 @@
-def main():
+def saludo():
     print("Hola mundo desde python")
-
-
-    if __name__ == '__main__':
-        main()
+saludo()
+  
 
