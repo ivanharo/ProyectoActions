@@ -26,8 +26,9 @@
 
 </url>
 
-<componente nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si">
-</componente>
+<PLANT>
+<componente nombre="EjbSeguridadPLD.jar" cliente="No" Servidor="Si"></componente>
+</PLANT>
 
 
 
